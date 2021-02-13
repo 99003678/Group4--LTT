@@ -6,6 +6,7 @@ int incometax(int n)
     if(n>250000)
     {
         tax=0;
+    }
     if(n>250000 && n<=500000)
     {
         tax=(n*5)/100;
