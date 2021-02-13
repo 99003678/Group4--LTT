@@ -40,52 +40,74 @@ int main()
     string name;
     cout<<"please enter your name"<<endl;
     cin>>name;
-    bool val = check_special(name);
-    while(val)
-    {
-        cout<<"Invalid"<<endl;
-        cin>>name;
-        val = check_special(name);
-    }
-    string Org_name;
-    cout<<"enter your organisation name"<<endl;
-    cin>>Org_name;
-    bool val1 = check_special(Org_name);
-    while(val1)
-    {
-        cout<<"Invalid Org name"<<endl;
+    bool check = check_special(name);
+     if(check==false)
+     {
+        while(1)
+        {
+            cout<<"Not valid Please enter again"<<endl;
+            cin>>name;
+            if(check_special(name))
+            break;
+            else
+            continue;
+            
+        }
+    	
+	}
+	
+        string Org_name;
+        cout<<"enter your organisation name"<<endl;
         cin>>Org_name;
-        val1 = check_special(Org_name);
-    }
-    
-    string email_id;
-    cout<<"Enter your email_id"<<endl;
-    cin>>email_id;
-    bool val2 = check_email(email_id);
-    while(val2==false)
-    {
-        cout<<"Invalid email"<<endl;
+        cout<<"please enter your enmail"<<endl;
+        string email_id;
         cin>>email_id;
-        val2 = check_email(email_id);
-    }
-    
+        bool check2  =check_email(email_id);
+        if(check2==false)
+        {
+            cout<<"Invalid email please enter again"<<endl;
+            while(1)
+        {
+            cin>>email_id;
+            if(check_special(name))
+            break;
+            else
+            cout<<"Not valid Please enter again"<<endl;
+        }
+            
+        }
 
-    float ctc,bo;
-    cout<<"Please enter your CTC above or 50000"<<endl;
-    cin>>ctc;
-    cout<<"enter your bonus"<<endl;
-    cin>>bo;
-    cout<<"welcome "<<name<<endl;
-    cout<<Org_name<<endl;
-    cout<<email_id<<endl;
-    cout<<"Your inhand salary is"<<endl;
-    cout<<inhand(ctc,bo)<<endl;
-    cout<<"Tax to paid is(yearly)"<<endl;
-    cout<<incometax(ctc);
-
+            float ctc,bo,am;
+            cout<<"enter your CTC"<<endl;
+            cin>>ctc;
+            char c;
+            cout<<"enter your bonus"<<endl;
+            cin>>bo;
+            cout<<"Do you have insurance? (Y/N) "<<endl;
+            cin>>c;
+            if(c=='Y' || c=='y')
+            {
+                cout<<"enter your insurance amount(yearly)";
+                cin>>am;
+                cout<<"welcome "<<name<<endl;
+                 cout<<Org_name<<endl;
+                cout<<"Your inhand salary is"<<endl;
+                 cout<<inhand(ctc,bo)-(am/12)<<endl;
+                 cout<<"Tax to paid is(yearly)"<<endl;
+                 cout<<incometax(ctc);
+            }
+            else
+            {
+            cout<<"welcome "<<name<<endl;
+            cout<<Org_name<<endl;
+            cout<<email_id<<endl;
+            cout<<"Your inhand salary is"<<endl;
+            cout<<inhand(ctc,bo)<<endl;
+            cout<<"Tax to paid is(yearly)"<<endl;
+            cout<<incometax(ctc);
+            }
 
  }
-    
 
 	
 
