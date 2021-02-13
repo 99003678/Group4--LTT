@@ -4,8 +4,11 @@
 # Folder Structure
 Folder	Description
 1_requirements:Documents detailing requirements,SWOT Analysis,Feasibility Study.
+
 design:	Documents specifying design details.
+
 implementation: All coding Part.
+
 test_plan: Documents with test Cases
 
 Project Name- Salary and Tax calculator.
