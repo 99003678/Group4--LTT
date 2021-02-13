@@ -77,11 +77,27 @@ int main()
             
         }
 
-            float ctc,bo;
+            float ctc,bo,am;
             cout<<"enter your CTC"<<endl;
             cin>>ctc;
+            char c;
             cout<<"enter your bonus"<<endl;
             cin>>bo;
+            cout<<"Do you have insurance? (Y/N) "<<endl;
+            cin>>c;
+            if(c=='Y' || c=='y')
+            {
+                cout<<"enter your insurance amount(yearly)";
+                cin>>am;
+                cout<<"welcome "<<name<<endl;
+                 cout<<Org_name<<endl;
+                cout<<"Your inhand salary is"<<endl;
+                 cout<<inhand(ctc,bo)-(am/12)<<endl;
+                 cout<<"Tax to paid is(yearly)"<<endl;
+                 cout<<incometax(ctc);
+            }
+            else
+            {
             cout<<"welcome "<<name<<endl;
             cout<<Org_name<<endl;
             cout<<email_id<<endl;
@@ -89,7 +105,7 @@ int main()
             cout<<inhand(ctc,bo)<<endl;
             cout<<"Tax to paid is(yearly)"<<endl;
             cout<<incometax(ctc);
-
+            }
 
  }
     
