@@ -59,7 +59,7 @@ int main()
         string Org_name;
         cout<<"enter your organisation name"<<endl;
         cin>>Org_name;
-        cout<<"please enter your enmail"<<endl;
+        cout<<"please enter your email"<<endl;
         string email_id;
         cin>>email_id;
         bool check2  =check_email(email_id);
