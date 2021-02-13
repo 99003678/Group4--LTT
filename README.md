@@ -1,3 +1,4 @@
+[![Code Grade](https://www.code-inspector.com/project/19015/score/svg)](https://frontend.code-inspector.com/public/project/19015/Group4--LTT/dashboard)
 # Group4--LTT
 Project Name- Salary and Tax calculator.
 
