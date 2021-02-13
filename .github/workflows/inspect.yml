@@ -1,4 +1,4 @@
-name: Inspect
+name: Inspect1
 
 on: [push]
 
