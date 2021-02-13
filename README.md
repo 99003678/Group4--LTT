@@ -14,3 +14,13 @@ test_plan: Documents with test Cases
 Project Name- Salary and Tax calculator.
 
 The salary and tax calculator is a prototype that calculates your in hand salary. It is a total salary an employee receives after all the tax deductions. The salary calculator consists of a functional box where you enter the cost to company(CTC) and the bonus included in the CTC. The salary calculator will show you the deductions such the employer and the employee provident fund, professional tax and the in hand salary.
+
+# Contribution List
+
+| Name  | Psnumber       | 
+| ------------- |:-------------:| 
+| Ashutosh Kumar    | 99003678 | 
+| Shreyansh Jain    | 99003676 |  
+| Neelimanaidu Takasi | 99003671 | 
+| Saisandeep reddy | 99003669 |
+| Neha Kumari | 99003673  |
