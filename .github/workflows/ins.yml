@@ -1,3 +1,5 @@
+name: inspect
+
 on: [push]
 
 jobs:
