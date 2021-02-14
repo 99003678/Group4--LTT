@@ -27,6 +27,9 @@ The salary and tax calculator is a prototype that calculates your in hand salary
 
 # Challenges
 We faced challenges in making Wokflows.
+
 We faced challenges in input Validation.
+
 We faced challenges in Drawing the UML Diagrams .
+
 We faced challenges in test plan.
