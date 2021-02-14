@@ -31,5 +31,5 @@ int incometax(int n)
      {
            tax=(n*30)/100;
       }
-return tax;
+ return tax;
 }
