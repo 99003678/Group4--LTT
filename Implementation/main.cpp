@@ -2,8 +2,7 @@
 #include<bits/stdc++.h>
 #include<regex>
 #include<stdio.h>
-#include "income.h"
-#include "inhand.h"
+#include "inc/inhand.h"
 
 
 using namespace std;
