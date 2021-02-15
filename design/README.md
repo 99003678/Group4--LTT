@@ -1,13 +1,1 @@
-﻿\## Folder Structure
-
-Folder        | description
-
-\--------------| ----------------------------------------------
-
-`inc`         | All header files
-
-`src`         | Main source code for calculator
-
-`test`        | All source code and data for testing purposes
-
-`build`       | Build output (Not included in git)
+This folder includes the structural design and behavioural design of salary and tax calculator.
