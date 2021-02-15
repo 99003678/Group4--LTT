@@ -6,8 +6,8 @@ Folder             | Description
 -------------------| -----------------------------------------
 `requirements`   | Documents detailing requirements, feasibility study and SWOT.
 `design`         | Documents specifying structural and behavioural diagrams.
-`Implementation` | All code and documentation including sorce code and header files.
-`test plan`      | Documents with test cases codes and positive and negative outputs.
+`Implementation` | All code and documentation including source code and header files.
+`test plan`      | Documents with test cases and positive and negative outputs.
 
 # Project Name- Salary and Tax calculator.
 
