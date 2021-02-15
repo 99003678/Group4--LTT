@@ -65,7 +65,7 @@ int main()
         bool check2  =check_email(email_id);
         if(check2==false)
         {
-            cout<<"Invalid email please enter again"<<endl;
+            cout<<"Invalid email please enter again\n"<<endl;
             while(1)
         {
             cin>>email_id;
