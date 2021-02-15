@@ -38,7 +38,7 @@ bool check_special(string y)
 int main()
 {
     string name;
-    cout<<"please enter your name"<<endl;
+    cout<<"please enter your name\n"<<endl;
     cin>>name;
     bool check = check_special(name);
      if(check==false)
