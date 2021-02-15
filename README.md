@@ -9,7 +9,7 @@ design:	Documents specifying design details.
 
 implementation: All coding Part.
 
-test_plan: Documents with test Cases
+test_plan: Documents with test Cases.
 
 # Project Name- Salary and Tax calculator.
 
