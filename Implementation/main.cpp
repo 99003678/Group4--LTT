@@ -45,7 +45,7 @@ int main()
      {
         while(1)
         {
-            cout<<"Not valid Please enter again"<<endl;
+            cout<<"Not valid Please enter again\n"<<endl;
             cin>>name;
             if(check_special(name))
             break;
