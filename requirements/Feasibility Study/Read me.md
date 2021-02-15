@@ -1,3 +1,0 @@
-This File contains the feasibility study of the project. The feasibility
-study includes technical feasibility, operational feasibility, schedule
-feasibility and also the required business research for the project.
