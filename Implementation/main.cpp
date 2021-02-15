@@ -57,7 +57,7 @@ int main()
 	}
 	
         string Org_name;
-        cout<<"enter your organisation name"<<endl;
+        cout<<"enter your organisation name\n"<<endl;
         cin>>Org_name;
         cout<<"please enter your email"<<endl;
         string email_id;
