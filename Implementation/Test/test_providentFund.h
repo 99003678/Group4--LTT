@@ -5,7 +5,7 @@
 void test_providentFund_basic(void)
 {
 
-	TEST_ASSERT_EQUAL( 12000, providentFund(400000));
+	TEST_ASSERT_EQUAL ( 12000, providentFund(400000));
 }
 
 int test_providentFund(void)
