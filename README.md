@@ -4,10 +4,10 @@
 # Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
-`1_requirements`   | Documents detailing high level and  low  level requirements.
-`2_design`         | Documents specifying structural and behavioural diagrams.
-`3_implementation` | All code and documentation including sorce code and header files.
-`4_test_plan`      | Documents with test cases codes and there positive and negative outputs.
+`requirements`   | Documents detailing requirements, feasibility study and SWOT.
+`design`         | Documents specifying structural and behavioural diagrams.
+`Implementation` | All code and documentation including sorce code and header files.
+`test plan`      | Documents with test cases codes and positive and negative outputs.
 
 # Project Name- Salary and Tax calculator.
 
