@@ -17,13 +17,13 @@ The salary and tax calculator is a prototype that calculates your in hand salary
 
 # Contributors List
 
-| Name  | Psnumber       | 
-| ------------- |:-------------:| 
-| Ashutosh Kumar    | 99003678 | 
-| Shreyansh Jain    | 99003676 |  
-| Neelimanaidu Takasi | 99003671 | 
-| Saisandeep reddy | 99003669 |
-| Neha Kumari | 99003673  |
+| Name  | Psnumber       | Features
+| ------------- |:-------------:|:-------------:|
+| Ashutosh Kumar    | 99003678 | inhand salary,Feasibility study|
+| Shreyansh Jain    | 99003676 |  Income tax, Swot analysis. |
+| Neelimanaidu Takasi | 99003671 | Professional tax, Design-structural|
+| Saisandeep reddy | 99003669 | main, Design-Behaviopural |
+| Neha Kumari | 99003673  | provident fund ,test plan,Requirement analysis|
 
 # Challenges
 We faced challenges in making Wokflows.
