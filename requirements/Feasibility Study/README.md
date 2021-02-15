@@ -1,13 +1,1 @@
-﻿\## Folder Structure
-
-Folder        | description
-
-\--------------| ----------------------------------------------
-
-`inc`         | All header files
-
-`src`         | Main source code for calculator
-
-`test`        | All source code and data for testing purposes
-
-`build`       | Build output (Not included in git)
+This File contains the feasibility study of the project. The feasibility study includes technical feasibility, operational feasibility, schedule feasibility and also the required business research for the project.
