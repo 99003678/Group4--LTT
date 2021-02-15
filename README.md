@@ -1,5 +1,9 @@
 [![Code Grade](https://www.code-inspector.com/project/19015/score/svg)](https://frontend.code-inspector.com/public/project/19015/Group4--LTT/dashboard)
 [![Code Grade](https://www.code-inspector.com/project/19015/status/svg)](https://frontend.code-inspector.com/public/project/19015/Group4--LTT/dashboard)
+![C/C++ CI](https://github.com/shreyansh1406/Group4--LTT/workflows/C/C++%20CI/badge.svg)
+![Unity - Unit Testing](https://github.com/shreyansh1406/Group4--LTT/workflows/Unity%20-%20Unit%20Testing/badge.svg)
+![Cppcheck](https://github.com/shreyansh1406/Group4--LTT/workflows/Cppcheck/badge.svg)
+![Inspect](https://github.com/shreyansh1406/Group4--LTT/workflows/Inspect/badge.svg)
 # Group4--LTT
 # Folder Structure
 Folder             | Description
